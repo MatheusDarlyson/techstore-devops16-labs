@@ -4,6 +4,8 @@ require("dotenv").config(); // Carrega as variáveis de ambiente do arquivo .env
 const express = require("express");
 const cors = require("cors");
 
+const routes = require("./routes"); // Importando as rotas da API
+
 // Criando uma instância do aplicativo Express
 const app = express();
 
@@ -11,13 +13,6 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// Rota inicial da API
-app.get("/", (req, res) => {
-    res.status(200).json({
-        status: "online",
-        application: "TechStore API",
-        version: "1.0.0"
-    });
-});
+app.use("/api", routes); // Registrando as rotas da API com o prefixo "/api"
 
 module.exports = app;
