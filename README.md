@@ -9,6 +9,8 @@
 
 > Labs práticos da disciplina de **DevOps**, desenvolvido para simular a transformação digital de uma empresa real ao longo do semestre.
 
+> **Status atual:** 🚧 Em desenvolvimento (MVP funcional)
+
 ---
 
 ## 📖 Sobre o Projeto
@@ -22,6 +24,69 @@ Cada módulo da disciplina representará uma nova etapa da evolução tecnológi
 O objetivo não é apenas aprender ferramentas, mas compreender **por que elas existem**, quais problemas resolvem e como são aplicadas em ambientes corporativos.
 
 ---
+
+## ✅ Estado Atual do Projeto
+
+Atualmente a TechStore possui:
+
+- ✅ API REST em Node.js + Express
+- ✅ Cadastro de usuários
+- ✅ Login com bcrypt
+- ✅ CRUD de produtos
+- ✅ Persistência em arquivos JSON
+
+---
+
+## ▶️ Como executar
+
+Clone o projeto:
+
+```bash
+git clone <repositorio>
+```
+
+Entre na pasta do backend:
+
+```bash
+cd backend
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Execute:
+
+```bash
+npm run dev
+```
+
+API disponível em:
+
+```
+http://localhost:3000
+```
+
+---
+
+
+## 📡 Endpoints
+
+| Método | Endpoint | Descrição |
+|---------|----------|-----------|
+| GET | /api/health | Verifica o status da API |
+| POST | /api/auth/register | Cadastro de usuário |
+| POST | /api/auth/login | Login |
+| GET | /api/products | Lista produtos |
+| POST | /api/products | Cadastra produto |
+| PUT | /api/products/:id | Atualiza produto |
+| DELETE | /api/products/:id | Remove produto |
+
+
+---
+
 
 # 🎯 Objetivos
 
@@ -63,7 +128,7 @@ Entre elas:
 - Docker
 - Docker Compose
 - Kubernetes
-- GitHub Actions
+- GitLab
 - Terraform
 - AWS
 - Grafana
@@ -160,9 +225,9 @@ Em breve:
 
 ---
 
-
 Projeto — TechStore
+Última atualização: Julho de 2026
 
 ---
 
-> "O trabalho àrduo de hoje constrói um futuro tranquilo amanhã."
+> "O trabalho árduo de hoje constrói um futuro tranquilo amanhã."

@@ -1,0 +1,9 @@
+[
+    {
+        "id": 1,
+        "name": "Matheus",
+        "email": "matheus@email.com",
+        "password": "$2b$10$OOgkxbLTxQ8wILk.iZc0curPdHdKI.KWfPxhABKkVilovNfkdiLD2",
+        "role": "customer"
+    }
+]

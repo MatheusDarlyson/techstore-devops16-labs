@@ -1,0 +1,17 @@
+
+image: node:22
+
+stages:
+  - test
+
+test_api:
+  stage: test
+
+  before_script:
+    - cd backend
+    - npm install
+
+  script:
+    - npm start &
+    - sleep 5
+    - npm test

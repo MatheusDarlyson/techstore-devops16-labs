@@ -1,0 +1,30 @@
+{
+  "name": "techstore-backend",
+  "version": "1.0.0",
+  "description": "API REST da TechStore desenvolvida para demonstrações de DevOps, CI/CD e Docker.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test" : "node tests/health.test.js"
+
+  },
+  "keywords": [
+    "techstore",
+    "backend",
+    "node",
+    "express"
+  ],
+  "author": "Matheus Darlyson",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
