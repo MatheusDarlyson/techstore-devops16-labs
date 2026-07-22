@@ -1,17 +1,17 @@
 
-image: node:22
+image: node:22  # Cria um container com a imagem do Node.js versão 22
 
-stages:
+stages: # Define as etapas do pipeline
   - test
 
-test_api:
+test_api: # Define o job de teste da API
   stage: test
 
-  before_script:
+  before_script: # Define os comandos a serem executados antes do script principal
     - cd backend
     - npm install
 
-  script:
+  script: # Define os comandos a serem executados no script principal
     - npm start &
     - sleep 5
     - npm test
