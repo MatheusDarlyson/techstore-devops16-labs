@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Mouse Gamer RedDragon COBRA m711",
+    "description": "Mouses gamers de entrada mais populares do mercado, famoso pelo excelente custo-benefício",
+    "price": 130.9,
+    "stock": 20
+  },
+  {
+    "id": 3,
+    "name": "Notebook Apple",
+    "description": "Notebook teste",
+    "price": 1850,
+    "stock": 8
+  }
+]
