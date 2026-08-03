@@ -232,4 +232,6 @@ Projeto — TechStore
 
 > "O trabalho árduo de hoje constrói um futuro tranquilo amanhã."
 
-> Migração para o Gitlab realizada com sucesso. 
+> Migração para o Gitlab realizada com sucesso . 
+
+>  Migração para o GitHub realizada com sucesso.
