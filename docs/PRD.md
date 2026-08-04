@@ -144,12 +144,6 @@ Pedidos com PIX iniciado e não confirmado devem expirar automaticamente após u
 
 > *Nota de Documentação:* Detalhes técnicos de implementação, contratos de API e endpoints específicos estão na pasta **[docs/specs/](specs)**
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 1dba1ef (docs: atualiza PRD localmente)
-
 ### Marco 1: MVP
 
 **RF01: Cadastro de Clientes (TS-01)**
