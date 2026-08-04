@@ -142,7 +142,10 @@ Pedidos com PIX iniciado e não confirmado devem expirar automaticamente após u
 
 ## 5. Requisitos Funcionais (RF)
 
-> *Nota de Documentação:* Detalhes técnicos de implementação, contratos de API e endpoints específicos estão na pasta [`/docs/specs/`](./docs/specs)
+> *Nota de Documentação:* Detalhes técnicos de implementação, contratos de API e endpoints específicos estão na pasta **[docs/specs/](specs)**
+
+
+
 
 ### Marco 1: MVP
 
